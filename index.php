@@ -24,7 +24,7 @@ include_once 'actions/conn.php';
                 <th scope="col">Data</th>
                 <th scope="col">Editar</th>
                 <th scope="col">Excluir</th>
-                <th scope="col">Excluir</th>
+                
             </tr>
         </thead>
         <tbody>
@@ -51,7 +51,7 @@ include_once 'actions/conn.php';
                 <td><?php echo $dados['nome']; ?></td>
                 <td ><?php echo $dados['cidade']; ?></td>
                 <td><?php echo date('d/m/Y', strtotime($dados['data'])); ?></td>
-                <td ><?php echo $dados['uf']; ?></td>
+                
                 
 
                 <td><a href="edit.php?id=<?php echo $dados['id']; ?>" <button type="button"
