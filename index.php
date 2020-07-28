@@ -39,7 +39,7 @@ include_once 'actions/conn.php';
                     $uf = $dados['uf'];
                     if($uf == 'MG'){
                         $troca='class="cor-mg"';
-                        echo $uf;
+                        
                     }
                    
 				?>
